@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   
@@ -14,7 +15,7 @@
     </header>
     
     <main>
-      <section class="card" id="html-section"></section>
+      <section class="card" id="html-section">
        <h2>HTML</h2>
        <ul>
           <li>Hypertext Markup Language (HTML) gives the content structure. It builds the frame of a website.</li>
@@ -95,7 +96,52 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Cascading Style Sheets (CSS), which is a programming language used by developers to define how webpage content is presented to users.
+            define style rules for specific elements of an HTML page and format them using a wide range of style options.</li>
+          <li>Three ways to style a webpage
+            inline CSS style sheet 
+            internal CSS style sheet 
+            external CSS style sheet</li>
+          <li>INLINE 
+            -styles an element directly in the HTML file. Apply it to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only. 
+            -useful for quick and permanent changes
+            -less flexible than external and internal style sheets 
+            -each inline style must be edited individually whenever you make a design change
+          
+            < h1 style="color:red;">Prework Study Guide< /h1>
+          </li>
+          <li>INTERNAL 
+            style sheet contains CSS rules for the webpage in the head section of the HTML file.
+            rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code. 
+            Again, a single change to the CSS rule will apply to all tagged page elements.</li>
+          <li>EXTERNAL style sheets  most common way to style a webpage. It allows developers to keep all their CSS rules in a separate file, which makes design changes easier.
+              When using an external style sheet, we link the file using a < link> element placed in the HTML's < head>, as shown in the following code:</li>
+          <li>CSS elements: selector {property: value; property: value} -declaration block </li>
+          <li>Selector defines the element or attributes to which the rules, or declarations, will apply.
+            class attribute as the selector. Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector. 
+            Then the class attribute can be assigned to the element in the HTML, enabling us to freely choose which elements will be assigned the CSS rule</li>
+          <li>Declarations contain two important components: the CSS property we want to apply and the value of the property. example on 3.2.3
+            For example, the declaration color: blue; includes the CSS property color and the value for that property, blue.</li>
+          <li> * selector  declared that ALL of the elements on the page will have the style properties margin and padding set as 0:</li>
+          <li>combining two selectors into a single CSS rule with a comma, allowing the declarations to affect both selectors
+            two or more elements that will share the same styling can be grouped together. This helps us write Do Not Repeat Yourself (DRY) code.
+            </li>
+          <li> <img > selector assigns property values to any image element in the markup. The display property is assigned with the block value, which assigns each image to start on a new line.
+            positioning property, text-align</li>
+          <li> margin property acts much like a margin in a word processing document. 
+            indicates how much space we want around the outside of an element. The margin is not visible on the page; </li>
+          <li> padding property adds space around the content inside an element. 
+            When you increase padding, you are actually making the entire element bigger!</li>
+          <li> rel attribute specifies the relationship between the current document and the linked document resource.</li>
+          <li> href attribute specifies the location (URL) of the external resource.</li>
+          <li> The margin property assigns 40px to the top and bottom, and the auto value to the left and right.
+               The border property assigns a border with a width of 5px that is solid and gray.
+            </li>
+          <li>The box-shadow CSS property adds shadow effects around an element's frame. 
+            You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color. 
+            In our example, the X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); 
+            the Y offset is 10px and defines the extent on the Y axis (or just below the box). We haven’t defined the blur or spread radius here 
+            An HTML hexadecimal code defines the color.</li>
         </ul>
       </section>
       
