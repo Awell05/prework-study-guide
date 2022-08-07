@@ -12,6 +12,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     
     <main>
@@ -156,7 +157,95 @@
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>A dynamic programming language that allows users to interact with websites</li>
+          <li>object-oriented programming (OOP) language</li>
+          <li>powers websites with effects, interactivity, data communication, and much more.</li>
+          <li>case sensitive</li>
+          <li>core features:
+            Variables,
+            Comments,
+            Operators,
+            Conditionals,
+            Functions,
+            Events</li>
+            <li>VARIABLES</li>
+                <li>containers that store values(data in our code).</li>
+                <li>are necessary to do anything interesting in programming</li>
+                 <li>declare a variable with the "var" keyword; followed by the name you give to the variable</li>
+                 <li>var name of variable = data to store</li>
+                 <li>name must be unique because it is how we will reference the information stored in the variable in our code.</li>
+                 <li>var topics = "HTML, CSS, Git, JavaScript"</li>
+                  <li>Here, we've created a variable called, topics. The topics variable contains a string that includes all of the topics that we are studying in this module: "HTML, CSS, Git, JavaScript". 
+                    Notice that the string is contained within quotation marks, ". All strings are surrounded by quotation marks. Note that each line of JavaScript code ends with a semicolon.
+                  To access the string "HTML, CSS, Git, JavaScript", we can simply refer to the variable's name, topics.
+                  </li>
+                  <li>console.log method outputs a message to the web console by adding an argument. </li>
+                  <li> console refers to a test environment that developers use to check out their code.</li>
+                  <li>.log(), is a method, which means a set of instructions that can be executed by a computer. 
+                    The .log() method will output whatever we add inside the parentheses to the console. 
+                    </li>
+                    <li>Control flow is the order in which a computer executes code in a script.</li>
+                    <li>In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page.</li>
+                    <li>Control flow can be interrupted by conditional "if" statements</li>
+                    <li>Conditional statements and Loops control the order in which code is executed, or if it is even executed at all
+                      "if" statement is a way of introducing decision-making into our code. </li>
+                    <li>ARRAY: group of related data. variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.
+                      A single array can store different types of data, such as strings, numbers, and so on </li>
+                      <li>INDEX: To work with individual data items inside an array, we need to have one more piece of information: the location of the data item in the array. 
+                        This location is identified with a unique number called an index. 
+                        Using each piece of data's index, or location number, we can access individual data inside the array.
+                        arrays are zero-indexed and sequential
+                        first item in any array has an index of 0, not 1</li>
+
+                        <li>If we wanted to access only one index, we start with the name of the variable that stores the array, we add the specific index to the end of the array name in square brackets
+                          shapes[ 0 ];
+                      
+                        log it in the console, using the following line of code:
+                          console.log(shapes[ 0 ]);</li>
+                          <li>FOR LOOP</li>
+                          <li>uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. 
+                            tells the computer to go through each of the shapes in our array and log them to the console until there are no shapes left
+                           need the shape's index and the array's length. 
+                           array length is important because the for loop needs to know how many times the code will run until there are no items left in the array.</li>
+                           <li>FOR LOOP STATEMENTS NEEDED</li>
+                           <li>first statement determines the starting point for our loop. 
+                            declare a variable x and give it a value of 0 (because the first index of an array is always 0)
+                            var x = 0;</li>
+                            <li>second statement is the condition.
+                              loop will keep running As long as the number in the variable x is less than the length of the array
+                               use the length built-in array property on our shapes array to express that condition, as shown in the following line of code:
+                              x < shapes.length;</li>
+                              <li>third statement allows the array to iterate over each item
+                                indices follow a predictable pattern, we know the number increases by 1 each time. 
+                                code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1, as shown in the following line of code:</li>
+                                <li>Finally, we put the code that we want to be executed for each loop inside curly brackets. {}-code block
+				
+                                  for(var x = 0; x < shapes.length; x++) {
+                                   console.log(shapes[x]);
+                                  }</li>
+                                  <li>Commenting out code makes it inactive without deleting it, just in case you need it later.
+                                    to comment out multiple lines of JavaScript code: put /* before and */ after the block of code,
+                                  </li>
+                                  <li>JAVASCRIPT FUNCTIONS:</li>
+                                  <li>reusable blocks of code that contain instructions to perform a specific task.</li>
+                                  <li> 1. WRITE A FUNCTION
+                                    2. CALL A FUNCTION
+                                    3. COMPLETE THE GIT FLOW</li>
+                                    <li>CREATING A FUNCTION</li>
+                                    <li>1. use the "function" keyword
+                                      2.  give function a unique name
+                                      3.function's name is followed by parentheses ()
+                                      it is important to include the parentheses whenever you write a function.
+                                      4.code to be executed is written inside the curly brackets {}</li>
+                                    <li>function helloWorld() {
+                                      // code block
+                                   }</li>
+                                   <li>it is common practice to indent the for loop code below the function name, within the curly brackets, to add visual structure to your code.</li>
+                                   <li>In order for the code inside a function to run, we need to call the function.</li>
+                                   <li>CALL A FUNCTION</li>
+                                   <li> function name()</li>
+
+                      
         </ul>
       </section> 
     </main>
@@ -164,5 +253,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
